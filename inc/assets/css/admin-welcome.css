@@ -1,0 +1,136 @@
+/*   WELCOME HEAD   */
+.georg-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 160px;
+  height: 180px;
+  background-image: url(../img/theme-logo.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+.georg-logo .georg-version {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+/*   STATUS TABLE   */
+.about-wrap.georgtheme-status .updated,
+.about-wrap.georgtheme-status .error {
+  margin-top: 10px;
+}
+
+.about-wrap.georgtheme-status .updated.redux-message {
+  display: block !important;
+}
+
+.about-wrap.georgtheme-status .redux-message {
+  position: relative;
+  border-left-color: #00A2E3 !important;
+  overflow: hidden;
+}
+
+.about-wrap.georgtheme-status .redux-message a.skip,
+.about-wrap.georgtheme-status .redux-message a.docs {
+  opacity: 0.5;
+  text-decoration: none !important;
+}
+
+.about-wrap.georgtheme-status #debug-report {
+  display: none;
+  margin: 10px 0;
+  padding: 0;
+  position: relative;
+}
+
+.about-wrap.georgtheme-status #debug-report textarea {
+  font-family: monospace;
+  width: 100%;
+  margin: 0;
+  height: 300px;
+  padding: 20px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  resize: none;
+  font-size: 12px;
+  line-height: 20px;
+  outline: 0;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table {
+  margin-bottom: 1em;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table tr:nth-child(2n) th,
+.about-wrap.georgtheme-status table.georgtheme_status_table tr:nth-child(2n) td {
+  background: #fcfcfc;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table th {
+  font-weight: 700;
+  padding: 9px;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td:first-child {
+  width: 33%;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td.help {
+  width: 1em;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td {
+  padding: 9px;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td mark {
+  background: transparent none;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td mark.yes {
+   color: #7ad03a;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td mark.no {
+  color: #999;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td mark.error {
+  color: #a00;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table td ul {
+  margin: 0;
+}
+
+.about-wrap.georgtheme-status table.georgtheme_status_table .georgtheme-hint-qtip {
+  cursor: help;
+}
+
+
+/*   MEDIA QUERIES   */
+@media screen and (max-width: 500px) {
+  .about-wrap h2 .nav-tab {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .about-wrap h2.nav-tab-wrapper {
+    padding: 0;
+    width: 100%;
+  }
+}
